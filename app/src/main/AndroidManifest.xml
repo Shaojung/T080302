@@ -23,6 +23,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="tw.com.pcschool.t080302.MainActivity" />
         </activity>
+        <activity android:name=".MySettingActivity"></activity>
     </application>
 
 </manifest>
