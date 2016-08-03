@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this, SettingsActivity.class);
         startActivity(it);
     }
+    public void clickMyPref(View v)
+    {
+        Intent it = new Intent(MainActivity.this, MySettingActivity.class);
+        startActivity(it);
+    }
 }
